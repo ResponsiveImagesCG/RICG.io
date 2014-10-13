@@ -12,16 +12,16 @@
         <div class="head">
           <h2 class="feat-hed">The <code>srcset</code> and <code>sizes</code> attributes</h2>
           <dl class="support">
-            <dt class="">Chrome</dt>
-            <dd>Partial Support</dd>
-            <dt class="">Firefox</dt>
-            <dd>Supported</dd>
-            <dt class="">Opera</dt>
-            <dd>Partial Support</dd>
-            <dt class="">Safari</dt>
-            <dd>No Support</dd>
-            <dt class="">Safari</dt>
-            <dd>Partial Support</dd>
+            <dt><img src="_img/icon-chrome.png" alt="Chrome"></dt>
+            <dd class="a11y-hide">Partial Support</dd>
+            <dt><img src="_img/icon-firefox.png" alt="Firefox"></dt>
+            <dd class="a11y-hide">Supported</dd>
+            <dt><img src="_img/icon-opera.png" alt="Opera"></dt>
+            <dd class="a11y-hide">Partial Support</dd>
+            <dt><img src="_img/icon-ie.png" alt="Internet Explorer"></dt>
+            <dd class="a11y-hide">No Support</dd>
+            <dt><img src="_img/icon-safari.png" alt="Safari"></dt>
+            <dd class="a11y-hide">Partial Support</dd>
           </dl>
         </div>
         <div class="body">
@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <div class="feat">
+      <div class="feat open">
         <div class="head">
           <h2 class="feat-hed">Element Queries</h2>
           <dl class="support">

@@ -9,9 +9,24 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.a11y-hide {
+  color: transparent;
+  display: block;
+  font-size: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+
+}
 
 img {
   max-width: 100%;
+}
+
+p {
+  color: #e7e2e2;
+  margin: 1em 0;
+  font-family: Proxima Nova, sans-serif;
 }
 
 .logo {
@@ -30,29 +45,87 @@ img {
 }
 
 .issues {
+  background: #4a4646;
   border-top: 2px solid #000;
+  clear: both;
 }
 
-.head {
-  background: #fd353d;
-  border-left: .3125em solid #000;
-  border-top: 1px solid #000;
-  float: left;
-  padding: .3em .925em;
+.feat {
+  clear: both;
   width: 100%;
 }
-.feat-hed {
-  color: #fff;
-  float: left;
-  font-size: 1.3125em;
-  margin: 0;
-  padding: .5em 0 .45em 0;
+.head {
+  background: #d6342d;
+  border-left: .3125em solid #000;
+  border-top: 1px solid #000;
+  clear: both;
+  display: block;
+  padding: .3em 1.2em .3em .8875em;
+  position: relative;
+  width: 100%;
 }
+/*   */
+.body {
+  display: none;
+}
+.open .body {
+  display: block;
+}
+/*   */
+
+.open .head {
+  background: #000;
+}
+
+.feat-hed {
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  font: normal 1.3125em/1.2 DIN Condensed, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: .65em 0 .4em 0;
+}
+
 .support {
+  background: rgba(225, 225, 225, .95);
+  border-radius: .25em;
+  padding: .25em .25em 0 .25em;
+  position: absolute;
   float: right;
-  border: 2px solid blue;
+  right: 1em;
+  margin: 0;
+  top: .55em;
+  bottom: .55em;
+}
+.support dt {
+  float: left;
+  margin: 0 1px;
+  width: 30px;
 }
 
 .body {
-  padding-left: .925em;
+  padding: .5em 1.2em;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('_type/proximanova-reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('_type/proximanova-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('_type/DINweb-cond.woff') format('woff');
+    font-style: normal;
 }

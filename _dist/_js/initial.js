@@ -1,3 +1,9 @@
+/*! Project Name - v - 2014-10-21
+* Copyright (c) 2014 Authored by Filament Group, Inc. *//* app globals scripting */
+(function( window ){
+	window.projectName = {};
+}(this));
+
 /*
 	this file:
 		* determines whether a browser is qualified for enhancements at all, and if so,

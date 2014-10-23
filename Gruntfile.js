@@ -5,6 +5,7 @@ module.exports = function(grunt) {
 		isWindows = os.platform().indexOf('win') === 0; // watch out for `darwin`
 
 	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+	grunt.loadNpmTasks('assemble');
 
 	// Project configuration.
 	grunt.initConfig({
@@ -12,7 +13,7 @@ module.exports = function(grunt) {
 		banner: '/*! Project Name - v<%= pkg.version %> - ' +
 				'<%= grunt.template.today("yyyy-mm-dd") %>\n' +
 				'* Copyright (c) <%= grunt.template.today("yyyy") %> ' +
-				'Authored by Filament Group, Inc. */',
+				'Mat Marquis - mat@matmarquis.com */',
 		clean: {
 			dist: [ "_dist/" ]
 		},
@@ -57,7 +58,6 @@ module.exports = function(grunt) {
 					{ expand: true, cwd: "_tmpl/_img/", src: ["**"], dest: "_dist/_img/" },
 					{ expand: true, cwd: "_tmpl/_img/svg/", src: ["*.png"], dest: "_dist/_img/_svg/" },
 					{ expand: true, cwd: "_tmpl/_css/", src: ["**"], dest: "_dist/_css/" },
-					{ expand: true, cwd: "_tmpl/", src: ["*.html","*.php","*.json"], dest: "_dist/" },
 					{ expand: true, cwd: "_tmpl/", src: [".htaccess"], dest: "_dist/" }]
 			}
 		},
@@ -127,6 +127,20 @@ module.exports = function(grunt) {
 			}
 		},
 
+		assemble: {
+			options: {
+				flatten: true,
+				layout: ['_tmpl/index.hbs'],
+				partials: ['_tmpl/_partials/**/*.hbs'],
+				data: ['_tmpl/_data/*.json'],
+				ext: ".php"
+			},
+			build: {
+				src: '_tmpl/*.hbs',
+				dest: '_dist/'
+			}
+		},
+
 		// prevent editing of _dist files
 		chmod: {
 			options: {},
@@ -157,6 +171,9 @@ module.exports = function(grunt) {
 		'qunit',
 		'concat',
 		'copy',
+		'cssmin',
+		'uglify',
+		'assemble',
 		'criticalcss',
 		'chmod:readonly'
 	]);
@@ -171,14 +188,19 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('watch-default', [
 		'chmod:writeable',
+		'clean',
 		'qunit',
 		'copy',
+		'assemble',
+		'criticalcss',
 		'chmod:readonly'
 	]);
 
 	grunt.registerTask('watch-css', [
 		'chmod:writeable',
+		'clean',
 		'copy',
+		'criticalcss',
 		'concat:css_main',
 		'chmod:readonly'
 	]);

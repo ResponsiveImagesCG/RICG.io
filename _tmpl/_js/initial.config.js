@@ -64,6 +64,11 @@
 	// Add scoping classes to HTML element
 	win.document.documentElement.className += " " + docClasses.join(" ");
 
+	var enhancedCss = win.document.getElementsByName( "fullcss" )[ 0 ].content;
+	if( enhancedCss ){
+		loadCSS( enhancedCss );
+	}
+
 	// Get scripts to load, if defined
 	if( initialJS ){
 		var enhancedScripting = initialJS.getAttribute( "data-fulljs" );

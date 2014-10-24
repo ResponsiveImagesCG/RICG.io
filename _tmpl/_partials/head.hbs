@@ -5,12 +5,20 @@
 
     <meta name="grunticon" content="/_css/_grunticon/">
     <meta name="fonts" content="/_css/fonts.css">
+    <meta name="fullcss" content="/_css/all.css">
 
-    <link rel="stylesheet" href="/_css/all.css">
+    <?php
+    if( is_null( $_GET[ "nocrit" ] ) ) {
+      echo "<style>";
+      include( "_css/critical.css" );
+      echo "</style>";
+    } else {
+      echo '<link rel="stylesheet" href="/_css/all.css">';
+    } ?> 
 
-    <style>
-      <?php include( "_css/critical.css" ); ?> 
-    </style>
+    <noscript>
+      <link rel="stylesheet" href="/_css/all.css">
+    </noscript>
 
     <script src="/_js/initial.js" data-fulljs="/_js/main.js" id="initialjs"></script>
 

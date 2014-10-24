@@ -1,4 +1,25 @@
 {
-  
-  
+  "efforts": [
+    {
+      "title": "The basic <code>srcset</code> attribute",
+      "status": "Active Development",
+      "": "",
+      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+    },
+    {
+      "title": "Advanced <code>srcset</code> and <code>sizes</code> attributes",
+      "status": "Active Development",
+      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+    },
+    {
+      "title": "The <code>picture</code> element",
+      "status": "Active Development",
+      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+    },
+    {
+      "title": "Element Queries",
+      "status": "Proposal",
+      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+    }
+  ]
 }

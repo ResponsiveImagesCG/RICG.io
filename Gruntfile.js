@@ -31,9 +31,8 @@ module.exports = function(grunt) {
 			js_main: {
 				src: [
 					// keep this globalenhance file last!
-					'_tmpl/_js/_lib/jquery.js',
 					'_tmpl/_js/_lib/*',
-					'_tmpl/_js/globalenhance.js'
+					'_tmpl/_js/main.js'
 				],
 				dest: '_dist/_js/main.js'
 			},
@@ -120,7 +119,7 @@ module.exports = function(grunt) {
 		criticalcss: {
 			custom_options: {
 				options: {
-					url: "http://ricg.io.dev",
+					url: "http://ricg.io.dev?nocrit",
 					filename : 'all.css',
 					outputfile: "_dist/_css/critical.css"
 				}
@@ -190,7 +189,10 @@ module.exports = function(grunt) {
 		'chmod:writeable',
 		'clean',
 		'qunit',
+		'concat',
 		'copy',
+		'cssmin',
+		'uglify',
 		'assemble',
 		'criticalcss',
 		'chmod:readonly'
@@ -200,8 +202,10 @@ module.exports = function(grunt) {
 		'chmod:writeable',
 		'clean',
 		'copy',
-		'criticalcss',
+		'assemble',
 		'concat:css_main',
+		'cssmin',
+		'criticalcss',
 		'chmod:readonly'
 	]);
 

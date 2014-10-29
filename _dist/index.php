@@ -38,26 +38,30 @@
 <div class="feat">
   <div class="head">
     <span>
-      <h2 class="feat-hed">The basic <code>srcset</code> attribute</h2>
+      <h2 class="feat-hed">Basic <code>srcset</code> attribute</h2>
       <p class="status">Active Development</p>
     </span>
   </div>
   <div class="body">
+    
     <div class="col-b">
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
-        <img src="_img/icon-chrome.png" title="No support" alt="Chrome">
-        <img src="_img/icon-firefox.png" title="No support" alt="Firefox">
-        <img src="_img/icon-opera.png" title="Full support" class="full-support" alt="Opera">
-        <img src="_img/icon-ie.png" title="No support" alt="Internet Explorer">
-        <img src="_img/icon-safari.png" title="Partial support" class="partial-support" alt="Safari">
+        
+          Chrome : true
+        
+          Firefox : 
+        
+          Opera : true
+        
+          Safari : true
+        
+          Internet Explorer : 
+        
       </div>
     </div>
     <div class="col-a">
-
-      <p>The picture element is a markup pattern that allows developers to declare multiple sources for an image. By using media 
-        queries, it gives developers control as to when and if those images are presented to the user.</p>
-      <p>The picture element is one part of the HTML specification.</p>
+      <p></p>
 
       <h3 class="subhed">Usage</h3>
       <div class="usage">
@@ -97,25 +101,29 @@
     </span>
   </div>
   <div class="body">
+    
     <div class="col-b">
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
-        <img src="_img/icon-chrome.png" title="No support" alt="Chrome">
-        <img src="_img/icon-firefox.png" title="No support" alt="Firefox">
-        <img src="_img/icon-opera.png" title="Full support" class="full-support" alt="Opera">
-        <img src="_img/icon-ie.png" title="No support" alt="Internet Explorer">
-        <img src="_img/icon-safari.png" title="Partial support" class="partial-support" alt="Safari">
+        
+          Chrome : true
+        
+          Firefox : 
+        
+          Opera : true
+        
+          Safari : 
+        
+          Internet Explorer : 
+        
       </div>
     </div>
     <div class="col-a">
-
-      <p>The picture element is a markup pattern that allows developers to declare multiple sources for an image. By using media 
-        queries, it gives developers control as to when and if those images are presented to the user.</p>
-      <p>The picture element is one part of the HTML specification.</p>
+      <p></p>
 
       <h3 class="subhed">Usage</h3>
       <div class="usage">
-        <code><pre>&lt;img src=&quot;small.jpg&quot; srcset=&quot;small.jpg, big.jpg 2x&quot;&gt;</pre></code>
+        <code><pre></pre></code>
       </div>
 
       <h3 class="subhed">Documentation</h3>
@@ -146,30 +154,34 @@
 <div class="feat">
   <div class="head">
     <span>
-      <h2 class="feat-hed">The <code>picture</code> element</h2>
+      <h2 class="feat-hed"><code>picture</code> element</h2>
       <p class="status">Active Development</p>
     </span>
   </div>
   <div class="body">
+    
     <div class="col-b">
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
-        <img src="_img/icon-chrome.png" title="No support" alt="Chrome">
-        <img src="_img/icon-firefox.png" title="No support" alt="Firefox">
-        <img src="_img/icon-opera.png" title="Full support" class="full-support" alt="Opera">
-        <img src="_img/icon-ie.png" title="No support" alt="Internet Explorer">
-        <img src="_img/icon-safari.png" title="Partial support" class="partial-support" alt="Safari">
+        
+          Chrome : true
+        
+          Firefox : 
+        
+          Opera : true
+        
+          Safari : 
+        
+          Internet Explorer : 
+        
       </div>
     </div>
     <div class="col-a">
-
-      <p>The picture element is a markup pattern that allows developers to declare multiple sources for an image. By using media 
-        queries, it gives developers control as to when and if those images are presented to the user.</p>
-      <p>The picture element is one part of the HTML specification.</p>
+      <p></p>
 
       <h3 class="subhed">Usage</h3>
       <div class="usage">
-        <code><pre>&lt;img src=&quot;small.jpg&quot; srcset=&quot;small.jpg, big.jpg 2x&quot;&gt;</pre></code>
+        <code><pre></pre></code>
       </div>
 
       <h3 class="subhed">Documentation</h3>
@@ -201,29 +213,23 @@
   <div class="head">
     <span>
       <h2 class="feat-hed">Element Queries</h2>
-      <p class="status">Proposal</p>
+      <p class="status">Initial Planning</p>
     </span>
   </div>
   <div class="body">
+    
     <div class="col-b">
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
-        <img src="_img/icon-chrome.png" title="No support" alt="Chrome">
-        <img src="_img/icon-firefox.png" title="No support" alt="Firefox">
-        <img src="_img/icon-opera.png" title="Full support" class="full-support" alt="Opera">
-        <img src="_img/icon-ie.png" title="No support" alt="Internet Explorer">
-        <img src="_img/icon-safari.png" title="Partial support" class="partial-support" alt="Safari">
+        
       </div>
     </div>
     <div class="col-a">
-
-      <p>The picture element is a markup pattern that allows developers to declare multiple sources for an image. By using media 
-        queries, it gives developers control as to when and if those images are presented to the user.</p>
-      <p>The picture element is one part of the HTML specification.</p>
+      <p></p>
 
       <h3 class="subhed">Usage</h3>
       <div class="usage">
-        <code><pre>&lt;img src=&quot;small.jpg&quot; srcset=&quot;small.jpg, big.jpg 2x&quot;&gt;</pre></code>
+        <code><pre></pre></code>
       </div>
 
       <h3 class="subhed">Documentation</h3>

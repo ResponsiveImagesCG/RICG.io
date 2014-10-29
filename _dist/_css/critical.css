@@ -19,32 +19,22 @@ p{ color: rgb(231, 226, 226); margin-top: 1em; margin-right: 0px; margin-bottom:
 @media (min-width: 30em){
 .head .status{ clear: none; float: right; }
 }
-.body{ max-height: 0px; overflow-x: hidden; overflow-y: hidden; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: red; border-right-color: red; border-bottom-color: red; border-left-color: red; -webkit-transition-property: max-height; -webkit-transition-duration: 1s; -webkit-transition-timing-function: initial; -webkit-transition-delay: initial; }
-.body{ clear: both; padding-top: 1em; padding-bottom: 4em; width: 100%; }
 .body p{ text-shadow: rgb(0, 0, 0) 1px 1px 0px; }
 @media (min-width: 30em){
 .body .col-a{ float: left; width: 75.7894737%; }
 .body .col-b{ float: right; max-width: 21.8947368%; }
 }
-.head span, .body{ display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0.5em; padding-right: 1.2em; padding-bottom: 0px; padding-left: 1.2em; max-width: 1040px; }
-.body{ padding-bottom: 2em; }
+.head span{ display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0.5em; padding-right: 1.2em; padding-bottom: 0px; padding-left: 1.2em; max-width: 1040px; }
 .usage{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(238, 239, 240); border-left-width: 6px; border-left-style: solid; border-left-color: rgb(25, 24, 24); clear: both; float: left; padding-left: 1em; margin-top: 1em; margin-right: 0px; margin-bottom: 1.5em; margin-left: -6px; width: 100%; background-position: initial initial; background-repeat: initial initial; }
 .usage code{ color: rgb(25, 24, 24); display: block; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px; line-height: 1.5; word-wrap: break-word; }
 .feat-hed{ -webkit-font-smoothing: antialiased; color: rgb(255, 255, 255); font: normal normal 400 1.3125em/1.2 'DIN Condensed', sans-serif; font-weight: 400; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0.25em; padding-right: 0px; padding-bottom: 0.5em; padding-left: 0px; }
 .col-b{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(34, 34, 34); margin-top: -0.5em; margin-right: -1em; margin-bottom: 0px; margin-left: -1em; background-position: initial initial; background-repeat: initial initial; }
 .impl-hed{ color: rgb(250, 250, 250); display: block; font-size: 0.925em; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 1em; padding-top: 0.75em; -webkit-font-smoothing: antialiased; }
 .support{ border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(17, 17, 17); display: block; text-align: justify; max-height: 4em; padding-top: 0.5em; padding-right: 1em; padding-bottom: 0.25em; padding-left: 1em; width: 100%; }
-.support img{ display: inline; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; padding-top: 0.15em; padding-right: 0px; padding-bottom: 0.15em; padding-left: 0px; opacity: 0.15; max-width: 40px; width: 12.5%; }
-.support img.partial-support{ opacity: 0.5; }
-.support img.full-support{ opacity: 1; }
 @media (min-width: 30em){
 .col-b{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; background-position: 0px 50%; background-repeat: initial initial; }
 .support{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgba(225, 225, 225, 0.949219); border-top-left-radius: 0.25em 0.25em; border-top-right-radius: 0.25em 0.25em; border-bottom-right-radius: 0.25em 0.25em; border-bottom-left-radius: 0.25em 0.25em; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; display: block; float: right; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; max-height: inherit; padding-top: 0.25em; padding-right: 0.5em; padding-bottom: 0.25em; padding-left: 0.5em; width: auto; background-position: initial initial; background-repeat: initial initial; }
 .impl-hed{ margin-top: 0px; margin-right: 0px; margin-bottom: 0.75em; margin-left: 0px; }
-.support img{ display: block; width: 32px; }
-}
-@media (min-width: 50em){
-.support img{ float: left; width: 28px; }
 }
 @media (max-width: 50em) and (min-width: 30em){
 .impl-hed .abbr{ display: none; }

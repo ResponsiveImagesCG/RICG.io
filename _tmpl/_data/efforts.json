@@ -1,25 +1,87 @@
 {
   "efforts": [
     {
-      "title": "The basic <code>srcset</code> attribute",
+      "title": "Basic <code>srcset</code> attribute",
       "status": "Active Development",
-      "": "",
-      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+      "desc": "",
+      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">",
+      "support": [{
+          "name": "Chrome",
+          "support": true
+        },
+        {
+          "name": "Firefox",
+          "support": false
+        },
+        {
+          "name": "Opera",
+          "support": true
+        },
+        {
+          "name": "Safari",
+          "support": true
+        },
+        {
+          "name": "Internet Explorer",
+          "support": false
+        }]
     },
     {
       "title": "Advanced <code>srcset</code> and <code>sizes</code> attributes",
       "status": "Active Development",
-      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+      "desc": "",
+      "snippet": "",
+      "support": [{
+          "name": "Chrome",
+          "support": true
+        },
+        {
+          "name": "Firefox",
+          "support": false
+        },
+        {
+          "name": "Opera",
+          "support": true
+        },
+        {
+          "name": "Safari",
+          "support": false
+        },
+        {
+          "name": "Internet Explorer",
+          "support": false
+        }]
     },
     {
-      "title": "The <code>picture</code> element",
+      "title": "<code>picture</code> element",
       "status": "Active Development",
-      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+      "desc": "",
+      "snippet": "",
+      "support": [{
+          "name": "Chrome",
+          "support": true
+        },
+        {
+          "name": "Firefox",
+          "support": false
+        },
+        {
+          "name": "Opera",
+          "support": true
+        },
+        {
+          "name": "Safari",
+          "support": false
+        },
+        {
+          "name": "Internet Explorer",
+          "support": false
+        }]
     },
     {
       "title": "Element Queries",
-      "status": "Proposal",
-      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">"
+      "status": "Initial Planning",
+      "desc": ""
     }
   ]
 }

@@ -1,4 +1,4 @@
-{{#each efforts}}
+{{#efforts}}
 <div class="feat">
   <div class="head">
     <span>
@@ -7,21 +7,17 @@
     </span>
   </div>
   <div class="body">
+    
     <div class="col-b">
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
-        <img src="_img/icon-chrome.png" title="No support" alt="Chrome">
-        <img src="_img/icon-firefox.png" title="No support" alt="Firefox">
-        <img src="_img/icon-opera.png" title="Full support" class="full-support" alt="Opera">
-        <img src="_img/icon-ie.png" title="No support" alt="Internet Explorer">
-        <img src="_img/icon-safari.png" title="Partial support" class="partial-support" alt="Safari">
+        {{#each support}}
+          {{name}}: {{support}}
+        {{/each}}
       </div>
     </div>
     <div class="col-a">
-
-      <p>The picture element is a markup pattern that allows developers to declare multiple sources for an image. By using media 
-        queries, it gives developers control as to when and if those images are presented to the user.</p>
-      <p>The picture element is one part of the HTML specification.</p>
+      <p>{{desc}}</p>
 
       <h3 class="subhed">Usage</h3>
       <div class="usage">
@@ -52,4 +48,4 @@
     </div>
   </div>
 </div>
-{{/each}}
+{{/efforts}}

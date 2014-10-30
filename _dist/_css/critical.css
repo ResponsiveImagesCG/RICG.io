@@ -19,12 +19,15 @@ p{ color: rgb(231, 226, 226); margin-top: 1em; margin-right: 0px; margin-bottom:
 @media (min-width: 30em){
 .head .status{ clear: none; float: right; }
 }
+.body{ display: none !important; }
+.body{ clear: both; padding-top: 1em; padding-bottom: 4em; width: 100%; }
 .body p{ text-shadow: rgb(0, 0, 0) 1px 1px 0px; }
 @media (min-width: 30em){
 .body .col-a{ float: left; width: 75.7894737%; }
 .body .col-b{ float: right; max-width: 21.8947368%; }
 }
-.head span{ display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0.5em; padding-right: 1.2em; padding-bottom: 0px; padding-left: 1.2em; max-width: 1040px; }
+.head span, .body{ display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 0.5em; padding-right: 1.2em; padding-bottom: 0px; padding-left: 1.2em; max-width: 1040px; }
+.body{ padding-bottom: 2em; }
 .usage{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(238, 239, 240); border-left-width: 6px; border-left-style: solid; border-left-color: rgb(25, 24, 24); clear: both; float: left; padding-left: 1em; margin-top: 1em; margin-right: 0px; margin-bottom: 1.5em; margin-left: -6px; width: 100%; background-position: initial initial; background-repeat: initial initial; }
 .usage code{ color: rgb(25, 24, 24); display: block; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px; line-height: 1.5; word-wrap: break-word; }
 .feat-hed{ -webkit-font-smoothing: antialiased; color: rgb(255, 255, 255); font: normal normal 400 1.3125em/1.2 'DIN Condensed', sans-serif; font-weight: 400; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0.25em; padding-right: 0px; padding-bottom: 0.5em; padding-left: 0px; }

@@ -48,15 +48,15 @@
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
         
-          Chrome : true
+          Chrome: true
         
-          Firefox : 
+          Firefox: 
         
-          Opera : true
+          Opera: true
         
-          Safari : true
+          Safari: true
         
-          Internet Explorer : 
+          Internet Explorer: 
         
       </div>
     </div>
@@ -106,15 +106,15 @@
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
         
-          Chrome : true
+          Chrome: true
         
-          Firefox : 
+          Firefox: 
         
-          Opera : true
+          Opera: true
         
-          Safari : 
+          Safari: 
         
-          Internet Explorer : 
+          Internet Explorer: 
         
       </div>
     </div>
@@ -164,15 +164,15 @@
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
         
-          Chrome : true
+          Chrome: true
         
-          Firefox : 
+          Firefox: 
         
-          Opera : true
+          Opera: true
         
-          Safari : 
+          Safari: 
         
-          Internet Explorer : 
+          Internet Explorer: 
         
       </div>
     </div>

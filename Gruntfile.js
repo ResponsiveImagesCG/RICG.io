@@ -120,7 +120,7 @@ module.exports = function(grunt) {
 			custom_options: {
 				options: {
 					url: "http://ricg.io.dev?nocrit",
-					filename : 'all.css',
+					filename : '_dist/_css/all.css',
 					outputfile: "_dist/_css/critical.css"
 				}
 			}

@@ -12,12 +12,12 @@
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
         {{#each support}}
-          {{name}}: {{support}}
+          <img src="_img/icon-{{name}}.png" alt="{{name}}" {{#supported}}class="full-support"{{/supported}}>
         {{/each}}
       </div>
     </div>
     <div class="col-a">
-      <p>{{desc}}</p>
+      <p>{{{desc}}}</p>
 
       <h3 class="subhed">Usage</h3>
       <div class="usage">

@@ -209,12 +209,9 @@ p {
   display: inline;
   margin: 0 1px;
   padding: .15em 0;
-  opacity: .15;
+  opacity: .3;
   max-width: 40px;
   width: 12.5%;
-}
-.support img.partial-support {
-  opacity: .5;
 }
 .support img.full-support {
   opacity: 1;

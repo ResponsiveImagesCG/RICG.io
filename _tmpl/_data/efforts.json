@@ -3,85 +3,86 @@
     {
       "title": "Basic <code>srcset</code> attribute",
       "status": "Active Development",
-      "desc": "",
-      "snippet": "<img src=\"small.jpg\" srcset=\"small.jpg, big.jpg 2x\">",
+      "desc": "<p>The <code>srcset</code> attribute allows developers to supply user agents with alternate versions of an image, intended for display at different pixel densities.</p><p>In its most basic and well-supported form, srcset lets developers use <code>x</code> descriptors to specify the intended pixel-density of each source.</p>",
+      "snippet": "<img src=\"standard-definition.jpg\" srcset=\"high-definition.jpg 2x\">",
       "support": [{
-          "name": "Chrome",
-          "support": true
+          "name": "chrome",
+          "supported": true
         },
         {
-          "name": "Firefox",
-          "support": false
+          "name": "firefox",
+          "supported": false
         },
         {
-          "name": "Opera",
-          "support": true
+          "name": "opera",
+          "supported": true
         },
         {
-          "name": "Safari",
-          "support": true
+          "name": "safari",
+          "supported": true
         },
         {
-          "name": "Internet Explorer",
-          "support": false
+          "name": "ie",
+          "supported": false
         }]
     },
     {
       "title": "Advanced <code>srcset</code> and <code>sizes</code> attributes",
       "status": "Active Development",
-      "desc": "",
+      "desc":
+        "<p><code>srcset</code>’s <code>w</code> descriptor and the <code>sizes</code> attribute allow developers to supply a range of alternate sources for images whose sizes vary within a responsive layout. Optionally working in conjunction with server-side resizing, these syntaxes allow for a fully automated “responsive images” solution.</p>",
       "snippet": "",
       "support": [{
-          "name": "Chrome",
-          "support": true
+          "name": "chrome",
+          "supported": true
         },
         {
-          "name": "Firefox",
-          "support": false
+          "name": "firefox",
+          "supported": false
         },
         {
-          "name": "Opera",
-          "support": true
+          "name": "opera",
+          "supported": true
         },
         {
-          "name": "Safari",
-          "support": false
+          "name": "safari",
+          "supported": true
         },
         {
-          "name": "Internet Explorer",
-          "support": false
+          "name": "ie",
+          "supported": false
         }]
     },
     {
       "title": "<code>picture</code> element",
       "status": "Active Development",
-      "desc": "",
+      "desc": "<p>The <code>picture</code> element contains any number of child <code>source</code> elements and one <code>img</code>.</p><p>When this pattern is used with the <code>media</code> attribute on <code>source</code> elements, it allows developers to mandate that user agents must load specific  sources when certain media conditions are met. This allows developers to specify alternate aspect ratios to align with layoutchanges, or alternate framing of image content for optimally highlighting the subject of the image at different sizes.</p><p>When <code>picture</code> and <code>source</code> are used with the <code>type</code> attribute, authors may supply the same image in alternate formats to be requested only by browsers that support said format.</p>",
       "snippet": "",
       "support": [{
-          "name": "Chrome",
-          "support": true
+          "name": "chrome",
+          "supported": true
         },
         {
-          "name": "Firefox",
-          "support": false
+          "name": "firefox",
+          "supported": false
         },
         {
-          "name": "Opera",
-          "support": true
+          "name": "opera",
+          "supported": true
         },
         {
-          "name": "Safari",
-          "support": false
+          "name": "safari",
+          "supported": true
         },
         {
-          "name": "Internet Explorer",
-          "support": false
+          "name": "ie",
+          "supported": false
         }]
     },
     {
       "title": "Element Queries",
       "status": "Initial Planning",
-      "desc": ""
+      "desc": "<p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <strong>Element</strong> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on element queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p>"
     }
   ]
 }

@@ -44,9 +44,31 @@ p {
 .logo img {
   display: block;
   margin: 0 auto;
-  padding: 1.75em 0 1.5em 0;
-  max-width: 340px;
-  width: 60%;
+  padding: 2em 0 .5em 0;
+  max-width: 300px;
+  width: 50%;
+}
+
+.intro {
+  padding-bottom: 1.5em;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.intro p {
+  color: #444;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 0 5%;
+  text-align: center;
+  text-shadow: 1px 1px 0 #fff;
+}
+@media(min-width: 45em) {
+  .intro p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
 }
 
 .issues {
@@ -68,6 +90,7 @@ p {
 .head {
   border-left: .3125em solid #000;
   clear: both;
+  cursor: pointer;
   float: left;
   display: block;
   padding: .3em 0;
@@ -90,9 +113,9 @@ p {
 }
 .head .status {
   clear: both;
-  opacity: .8;
   font-size: .925em;
   margin-top: .525em;
+  opacity: .8;
 }
 @media( min-width: 30em ) {
   .head .status {
@@ -103,17 +126,20 @@ p {
 
 
 /*   */
-.body {
-  display: none !important;
+.issues .body {
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
 }
-.open .body {
-  display: block !important;
+.issues .open .body {
+  height: auto;
+  overflow: visible;
+  position: static;
 }
 .open .head {
   background: #000;
 }
-/*   */
-
 .body {
   clear: both;
   padding-top: 1em;

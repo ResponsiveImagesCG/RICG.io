@@ -33,7 +33,9 @@
       <h1 class="logo"><img src="_img/ricg-logo.png" alt="Responsive Issues Community Group"></h1>
     </header>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, magni dolor cumque fugiat aspernatur excepturi explicabo! Perferendis, libero, autem, magni debitis fugit quibusdam assumenda quas minus adipisci maiores nisi numquam.</p>
+	<div class="intro">
+	    <p>The <abbr title="Responsive Issues Community Group">RICG</abbr> is a group of independent designers and developers working toward standards that will help build fast, accessible, responsive websites.</p>
+	</div>
 
     <div class="issues">
       
@@ -227,7 +229,7 @@
       </div>
     </div>
     <div class="col-a">
-      <p><p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. Element queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on element queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p></p>
+      <p><p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <strong>Element</strong> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on element queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p></p>
 
       <h3 class="subhed">Usage</h3>
       <div class="usage">

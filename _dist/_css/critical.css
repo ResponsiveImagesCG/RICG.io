@@ -5,21 +5,26 @@ img{ max-width: 100%; }
 p{ color: rgb(231, 226, 226); margin-top: 1em; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; font-family: 'Proxima Nova', sans-serif; }
 .sitehead{ width: 100%; }
 .logo{ margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
-.logo img{ display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 1.75em; padding-right: 0px; padding-bottom: 1.5em; padding-left: 0px; max-width: 340px; width: 60%; }
+.logo img{ display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 2em; padding-right: 0px; padding-bottom: 0.5em; padding-left: 0px; max-width: 300px; width: 50%; }
+.intro{ padding-bottom: 1.5em; max-width: 920px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; }
+.intro p{ color: rgb(68, 68, 68); font-size: 1.1em; font-weight: 700; line-height: 1.4; padding-top: 0px; padding-right: 5%; padding-bottom: 0px; padding-left: 5%; text-align: center; text-shadow: rgb(255, 255, 255) 1px 1px 0px; }
+@media (min-width: 45em){
+.intro p{ font-size: 1.2em; line-height: 1.5; }
+}
 .issues{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(42, 42, 42); border-bottom-width: 5px; border-bottom-style: solid; border-bottom-color: rgb(0, 0, 0); margin-bottom: 5em; clear: both; background-position: initial initial; background-repeat: initial initial; }
 .feat{ clear: both; width: 100%; }
-.head{ border-left-width: 0.3125em; border-left-style: solid; border-left-color: rgb(0, 0, 0); clear: both; float: left; display: block; padding-top: 0.3em; padding-right: 0px; padding-bottom: 0.3em; padding-left: 0px; position: relative; width: 100%; }
+.head{ border-left-width: 0.3125em; border-left-style: solid; border-left-color: rgb(0, 0, 0); clear: both; cursor: pointer; float: left; display: block; padding-top: 0.3em; padding-right: 0px; padding-bottom: 0.3em; padding-left: 0px; position: relative; width: 100%; }
 .heading0 .head{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(226, 14, 3); background-position: initial initial; background-repeat: initial initial; }
 .heading1 .head{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(230, 45, 35); background-position: initial initial; background-repeat: initial initial; }
 .heading2 .head{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(231, 59, 51); background-position: initial initial; background-repeat: initial initial; }
 .heading3 .head{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(231, 72, 64); background-position: initial initial; background-repeat: initial initial; }
 .feat + .feat .head{ border-top-width: 1px; border-top-style: solid; border-top-color: rgba(0, 0, 0, 0.246094); }
 .head .feat-hed{ float: left; }
-.head .status{ clear: both; opacity: 0.8; font-size: 0.925em; margin-top: 0.525em; }
+.head .status{ clear: both; font-size: 0.925em; margin-top: 0.525em; opacity: 0.8; }
 @media (min-width: 30em){
 .head .status{ clear: none; float: right; }
 }
-.body{ display: none !important; }
+.issues .body{ height: 1px; left: -9999px; overflow-x: hidden; overflow-y: hidden; position: absolute; }
 .body{ clear: both; padding-top: 1em; padding-bottom: 4em; width: 100%; }
 .body p{ text-shadow: rgb(0, 0, 0) 1px 1px 0px; }
 @media (min-width: 30em){

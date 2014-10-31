@@ -33,12 +33,186 @@
       <h1 class="logo"><img src="_img/ricg-logo.png" alt="Responsive Issues Community Group"></h1>
     </header>
 
-    <div class="intro">
-      <p>The <a href="http://www.w3.org/community/respimg/" title="Responsive Issues Community Group">RICG</a> is a group of independent designers and developers working toward new web standards that will build fast, accessible, responsive websites.</p>
-    </div>
+	<div class="intro">
+	    <p>The <abbr title="Responsive Issues Community Group">RICG</abbr> is a group of independent designers and developers working toward standards that will help build fast, accessible, responsive websites.</p>
+	</div>
 
     <div class="issues">
       
+<div class="feat">
+  <div class="head">
+    <span>
+      <h2 class="feat-hed">Basic <code>srcset</code> attribute</h2>
+      <p class="status">Active Development</p>
+    </span>
+  </div>
+  <div class="body">
+    
+    <div class="col-b">
+      <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
+      <div class="support">
+        
+          <img src="_img/icon-chrome.png" alt="chrome" class="full-support">
+        
+          <img src="_img/icon-firefox.png" alt="firefox" >
+        
+          <img src="_img/icon-opera.png" alt="opera" class="full-support">
+        
+          <img src="_img/icon-safari.png" alt="safari" class="full-support">
+        
+          <img src="_img/icon-ie.png" alt="ie" >
+        
+      </div>
+    </div>
+    <div class="col-a">
+      <p><p>The <code>srcset</code> attribute allows developers to supply user agents with alternate versions of an image, intended for display at different pixel densities.</p><p>In its most basic and well-supported form, srcset lets developers use <code>x</code> descriptors to specify the intended pixel-density of each source.</p></p>
+
+      <h3 class="subhed">Usage</h3>
+      <div class="usage">
+        <code><pre>&lt;img src=&quot;standard-definition.jpg&quot; srcset=&quot;high-definition.jpg 2x&quot;&gt;</pre></code>
+      </div>
+
+      <h3 class="subhed">Documentation</h3>
+
+      <dl class="docs">
+        <dt>Use Cases</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt class="published">Specification</dt>
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+      </dl>
+
+      <h3 class="subhed">Resources</h3>
+      <dl class="docs">
+        <dt class="draft">Draft</dt>
+        <dd class="draft"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt class="published">Published</dt>
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt>Specification</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<div class="feat">
+  <div class="head">
+    <span>
+      <h2 class="feat-hed">Advanced <code>srcset</code> and <code>sizes</code> attributes</h2>
+      <p class="status">Active Development</p>
+    </span>
+  </div>
+  <div class="body">
+    
+    <div class="col-b">
+      <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
+      <div class="support">
+        
+          <img src="_img/icon-chrome.png" alt="chrome" class="full-support">
+        
+          <img src="_img/icon-firefox.png" alt="firefox" >
+        
+          <img src="_img/icon-opera.png" alt="opera" class="full-support">
+        
+          <img src="_img/icon-safari.png" alt="safari" class="full-support">
+        
+          <img src="_img/icon-ie.png" alt="ie" >
+        
+      </div>
+    </div>
+    <div class="col-a">
+      <p><p><code>srcset</code>’s <code>w</code> descriptor and the <code>sizes</code> attribute allow developers to supply a range of alternate sources for images whose sizes vary within a responsive layout. Optionally working in conjunction with server-side resizing, these syntaxes allow for a fully automated “responsive images” solution.</p></p>
+
+      <h3 class="subhed">Usage</h3>
+      <div class="usage">
+        <code><pre></pre></code>
+      </div>
+
+      <h3 class="subhed">Documentation</h3>
+
+      <dl class="docs">
+        <dt>Use Cases</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt class="published">Specification</dt>
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+      </dl>
+
+      <h3 class="subhed">Resources</h3>
+      <dl class="docs">
+        <dt class="draft">Draft</dt>
+        <dd class="draft"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt class="published">Published</dt>
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt>Specification</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<div class="feat">
+  <div class="head">
+    <span>
+      <h2 class="feat-hed"><code>picture</code> element</h2>
+      <p class="status">Active Development</p>
+    </span>
+  </div>
+  <div class="body">
+    
+    <div class="col-b">
+      <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
+      <div class="support">
+        
+          <img src="_img/icon-chrome.png" alt="chrome" class="full-support">
+        
+          <img src="_img/icon-firefox.png" alt="firefox" >
+        
+          <img src="_img/icon-opera.png" alt="opera" class="full-support">
+        
+          <img src="_img/icon-safari.png" alt="safari" class="full-support">
+        
+          <img src="_img/icon-ie.png" alt="ie" >
+        
+      </div>
+    </div>
+    <div class="col-a">
+      <p><p>The <code>picture</code> element contains any number of child <code>source</code> elements and one <code>img</code>.</p><p>When this pattern is used with the <code>media</code> attribute on <code>source</code> elements, it allows developers to mandate that user agents must load specific  sources when certain media conditions are met. This allows developers to specify alternate aspect ratios to align with layoutchanges, or alternate framing of image content for optimally highlighting the subject of the image at different sizes.</p><p>When <code>picture</code> and <code>source</code> are used with the <code>type</code> attribute, authors may supply the same image in alternate formats to be requested only by browsers that support said format.</p></p>
+
+      <h3 class="subhed">Usage</h3>
+      <div class="usage">
+        <code><pre></pre></code>
+      </div>
+
+      <h3 class="subhed">Documentation</h3>
+
+      <dl class="docs">
+        <dt>Use Cases</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt class="published">Specification</dt>
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+      </dl>
+
+      <h3 class="subhed">Resources</h3>
+      <dl class="docs">
+        <dt class="draft">Draft</dt>
+        <dd class="draft"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt class="published">Published</dt>
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt>Specification</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
 <div class="feat">
   <div class="head">
     <span>
@@ -52,207 +226,41 @@
       <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
       <div class="support">
         
-          <img src="_img/icon-chrome.png" alt="chrome: not supported" title="chrome" >
-        
-          <img src="_img/icon-firefox.png" alt="firefox: not supported" title="firefox" >
-        
-          <img src="_img/icon-opera.png" alt="opera: not supported" title="opera" >
-        
-          <img src="_img/icon-safari.png" alt="safari: not supported" title="safari" >
-        
-          <img src="_img/icon-ie.png" alt="ie: not supported" title="ie" >
-        
       </div>
     </div>
     <div class="col-a">
-      <p><p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <em>Element</em> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on element queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p></p>
+      <p><p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <strong>Element</strong> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on element queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p></p>
 
-      
-
-      <h3 class="subhed">Documentation</h3>
-
-      <dl class="docs">
-        
-        <dt >Repo</dt>
-        <dd><a href="https://github.com/ResponsiveImagesCG/eq-usecases">https://github.com/ResponsiveImagesCG/eq-usecases</a></dd>
-        
-        <dt >Use Cases</dt>
-        <dd><a href="https://responsiveimagescg.github.io/eq-usecases/">https://responsiveimagescg.github.io/eq-usecases/</a></dd>
-        
-      </dl>
-
-    </div>
-  </div>
-</div>
-
-<div class="feat">
-  <div class="head">
-    <span>
-      <h2 class="feat-hed"><code>picture</code> Element</h2>
-      <p class="status">Active Development</p>
-    </span>
-  </div>
-  <div class="body">
-    
-    <div class="col-b">
-      <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
-      <div class="support">
-        
-          <img src="_img/icon-chrome.png" alt="chrome: supported" title="chrome" class="full-support">
-        
-          <img src="_img/icon-firefox.png" alt="firefox: not supported" title="firefox" >
-        
-          <img src="_img/icon-opera.png" alt="opera: supported" title="opera" class="full-support">
-        
-          <img src="_img/icon-safari.png" alt="safari: not supported" title="safari" >
-        
-          <img src="_img/icon-ie.png" alt="ie: not supported" title="ie" >
-        
-      </div>
-    </div>
-    <div class="col-a">
-      <p><p>The <code>picture</code> element contains any number of child <code>source</code> elements and one <code>img</code>.</p><p>When this pattern is used with the <code>media</code> attribute on <code>source</code> elements, it allows developers to mandate that user agents must load specific  sources when certain media conditions are met. This allows developers to specify alternate aspect ratios to align with layoutchanges, or alternate framing of image content for optimally highlighting the subject of the image at different sizes.</p><p>When <code>picture</code> and <code>source</code> are used with the <code>type</code> attribute, authors may supply the same image in alternate formats to be requested only by browsers that support said format.</p></p>
-
-      
       <h3 class="subhed">Usage</h3>
       <div class="usage">
-        <code><pre>&lt;picture&gt;
-  &lt;source srcset=&quot;large.jpg&quot; media=&quot;(min-width: 800px)&quot;&gt;
-  &lt;img src=&quot;small.jpg&quot; alt=&quot;…&quot;&gt;
-&lt;picture&gt;</pre></code>
+        <code><pre></pre></code>
       </div>
-      
 
       <h3 class="subhed">Documentation</h3>
 
       <dl class="docs">
-        
-        <dt >Repo</dt>
-        <dd><a href="https://github.com/ResponsiveImagesCG/picture-element">https://github.com/ResponsiveImagesCG/picture-element</a></dd>
-        
-        <dt >Use Cases</dt>
-        <dd><a href="http://usecases.responsiveimages.org/">http://usecases.responsiveimages.org/</a></dd>
-        
+        <dt>Use Cases</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
         <dt class="published">Specification</dt>
-        <dd><a href="https://html.spec.whatwg.org/multipage/embedded-content.html#introduction-3:art-direction-3">https://html.spec.whatwg.org/multipage/embedded-content.html#introduction-3:art-direction-3</a></dd>
-        
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
       </dl>
 
-    </div>
-  </div>
-</div>
-
-<div class="feat">
-  <div class="head">
-    <span>
-      <h2 class="feat-hed">Advanced <code>srcset</code> and <code>sizes</code> Attributes</h2>
-      <p class="status">Active Development</p>
-    </span>
-  </div>
-  <div class="body">
-    
-    <div class="col-b">
-      <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
-      <div class="support">
-        
-          <img src="_img/icon-chrome.png" alt="chrome: supported" title="chrome" class="full-support">
-        
-          <img src="_img/icon-firefox.png" alt="firefox: not supported" title="firefox" >
-        
-          <img src="_img/icon-opera.png" alt="opera: supported" title="opera" class="full-support">
-        
-          <img src="_img/icon-safari.png" alt="safari: not supported" title="safari" >
-        
-          <img src="_img/icon-ie.png" alt="ie: not supported" title="ie" >
-        
-      </div>
-    </div>
-    <div class="col-a">
-      <p><p><code>srcset</code>’s <code>w</code> descriptor and the <code>sizes</code> attribute allow developers to supply a range of alternate sources for images whose sizes vary within a responsive layout. Optionally working in conjunction with server-side resizing, these syntaxes allow for a fully automated “responsive images” solution.</p></p>
-
-      
-      <h3 class="subhed">Usage</h3>
-      <div class="usage">
-        <code><pre>&lt;img src=&quot;fallbk.jpg&quot; sizes=&quot;100vw&quot; srcset=&quot;small.jpg 400w, large.jpg 1200w&quot; alt=&quot;…&quot;&gt;</pre></code>
-      </div>
-      
-
-      <h3 class="subhed">Documentation</h3>
-
+      <h3 class="subhed">Resources</h3>
       <dl class="docs">
-        
-        <dt >Use Cases</dt>
-        <dd><a href="http://usecases.responsiveimages.org/">http://usecases.responsiveimages.org/</a></dd>
-        
-        <dt class="published">Specification</dt>
-        <dd><a href="https://html.spec.whatwg.org/multipage/embedded-content.html#introduction-3:device-pixel-ratio-2/">https://html.spec.whatwg.org/multipage/embedded-content.html#introduction-3:device-pixel-ratio-2/</a></dd>
-        
+        <dt class="draft">Draft</dt>
+        <dd class="draft"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt class="published">Published</dt>
+        <dd class="published"><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
+
+        <dt>Specification</dt>
+        <dd><a href="http://responsiveimagescg.github.io/eq-usecases/">http://responsiveimagescg.github.io/eq-usecases/</a></dd>
       </dl>
-
-    </div>
-  </div>
-</div>
-
-<div class="feat">
-  <div class="head">
-    <span>
-      <h2 class="feat-hed">Basic <code>srcset</code> Attribute</h2>
-      <p class="status">Active Development</p>
-    </span>
-  </div>
-  <div class="body">
-    
-    <div class="col-b">
-      <h3 class="impl-hed">Impl<b class="abbr">ementation</b> Status</h3>
-      <div class="support">
-        
-          <img src="_img/icon-chrome.png" alt="chrome: supported" title="chrome" class="full-support">
-        
-          <img src="_img/icon-firefox.png" alt="firefox: not supported" title="firefox" >
-        
-          <img src="_img/icon-opera.png" alt="opera: supported" title="opera" class="full-support">
-        
-          <img src="_img/icon-safari.png" alt="safari: supported" title="safari" class="full-support">
-        
-          <img src="_img/icon-ie.png" alt="ie: not supported" title="ie" >
-        
-      </div>
-    </div>
-    <div class="col-a">
-      <p><p>The <code>srcset</code> attribute allows developers to supply user agents with alternate versions of an image, intended for display at different pixel densities.</p><p>In its most basic and well-supported form, srcset lets developers use <code>x</code> descriptors to specify the intended pixel-density of each source.</p></p>
-
-      
-      <h3 class="subhed">Usage</h3>
-      <div class="usage">
-        <code><pre>&lt;img src=&quot;standard-definition.jpg&quot; srcset=&quot;high-definition.jpg 2x&quot; alt=&quot;…&quot;&gt;</pre></code>
-      </div>
-      
-
-      <h3 class="subhed">Documentation</h3>
-
-      <dl class="docs">
-        
-        <dt class="published">Use Cases</dt>
-        <dd><a href="http://usecases.responsiveimages.org/">http://usecases.responsiveimages.org/</a></dd>
-        
-        <dt class="published">Specification</dt>
-        <dd><a href="https://html.spec.whatwg.org/multipage/embedded-content.html#introduction-3:viewport-based-selection-2">https://html.spec.whatwg.org/multipage/embedded-content.html#introduction-3:viewport-based-selection-2</a></dd>
-        
-      </dl>
-
     </div>
   </div>
 </div>
 
     </div>
-
-    <footer class="body">
-      <nav class="social">
-        <h2 class="a11y-hide">Share this page</h2>
-        <a class="no-txt twitter" href="https://twitter.com/respimg">Twitter</a>
-        <a class="no-txt facebook" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fresponsiveimages.org&amp;t=Read%20the%20latest%20news%20on%20responsive%20images%2C%20and%20get%20involved!">Facebook</a>
-        <a class="no-txt g-plus" href="https://plus.google.com/share?url=http%3A%2F%2Fresponsiveimages.org">Google Plus</a>
-      </nav>
-    </footer>
   </body>
 </html>

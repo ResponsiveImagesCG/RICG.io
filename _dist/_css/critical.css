@@ -2,7 +2,7 @@ body{ background-image: url(data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00
 *{ box-sizing: border-box; }
 a{ color: rgb(117, 20, 21); font-weight: 700; text-decoration: none; -webkit-font-smoothing: antialiased; }
 img{ max-width: 100%; }
-p{ color: rgb(231, 226, 226); margin-top: 1em; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; font-family: 'Proxima Nova', sans-serif; }
+p{ color: rgb(231, 226, 226); margin-top: 1em; margin-right: 0px; margin-bottom: 1em; margin-left: 0px; line-height: 1.4; font-family: 'Proxima Nova', sans-serif; }
 .sitehead{ width: 100%; }
 .logo{ margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; }
 .logo img{ display: block; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; padding-top: 2em; padding-right: 0px; padding-bottom: 0.5em; padding-left: 0px; max-width: 300px; width: 50%; }
@@ -57,12 +57,10 @@ p{ color: rgb(231, 226, 226); margin-top: 1em; margin-right: 0px; margin-bottom:
 .docs{ clear: both; margin-left: -6px; float: left; margin-bottom: 1.5em; width: 100%; }
 .docs dt{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(235, 235, 236); border-left-width: 6px; border-left-style: solid; border-left-color: rgb(25, 24, 24); border-right-width: 1px; border-right-style: solid; border-right-color: rgba(200, 200, 200, 0.496094); clear: left; color: rgb(25, 24, 24); float: left; font-weight: 700; margin-right: 0.5em; min-width: 8em; background-position: initial initial; background-repeat: initial initial; }
 .docs dd{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(239, 239, 239); border-left-width: 6px; border-left-style: solid; border-left-color: rgb(25, 24, 24); clear: left; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; min-width: 70%; width: 100%; background-position: initial initial; background-repeat: initial initial; }
-.docs dd a{ font-weight: 400; text-indent: 1em; }
+.docs dd a{ display: block; font-weight: 400; overflow-x: hidden; overflow-y: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .docs dt, .docs dd{ display: block; padding-top: 0.25em; padding-right: 0.5em; padding-bottom: 0.2em; padding-left: 0.5em; }
 dt.published{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(206, 230, 184); background-position: initial initial; background-repeat: initial initial; }
-dd.published, dt.published{ border-left-color: rgb(51, 75, 17); color: rgb(51, 75, 17); }
-dt.draft{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(239, 218, 221); background-position: initial initial; background-repeat: initial initial; }
-dd.draft, dt.draft{ border-left-color: rgb(118, 23, 24); color: rgb(118, 23, 24); }
+ dt.published{ border-left-color: rgb(51, 75, 17); color: rgb(51, 75, 17); }
 @media (min-width: 50em){
 .docs dt, .docs dd{ clear: none; width: auto; }
 }

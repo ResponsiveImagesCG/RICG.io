@@ -32,6 +32,7 @@ img {
 p {
   color: #e7e2e2;
   margin: 1em 0;
+  line-height: 1.4;
   font-family: Proxima Nova, sans-serif;
 }
 .sitehead {
@@ -323,8 +324,11 @@ p {
   width: 100%;
 }
 .docs dd a {
+  display: block;
   font-weight: normal;
-  text-indent: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .docs dt,
 .docs dd {

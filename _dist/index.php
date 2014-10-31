@@ -33,9 +33,9 @@
       <h1 class="logo"><img src="_img/ricg-logo.png" alt="Responsive Issues Community Group"></h1>
     </header>
 
-	<div class="intro">
-	    <p>The <abbr title="Responsive Issues Community Group">RICG</abbr> is a group of independent designers and developers working toward new web standards that will build fast, accessible, responsive websites.</p>
-	</div>
+    <div class="intro">
+      <p>The <a href="http://www.w3.org/community/respimg/" title="Responsive Issues Community Group">RICG</a> is a group of independent designers and developers working toward new web standards that will build fast, accessible, responsive websites.</p>
+    </div>
 
     <div class="issues">
       
@@ -88,7 +88,7 @@
 <div class="feat">
   <div class="head">
     <span>
-      <h2 class="feat-hed"><code>picture</code> element</h2>
+      <h2 class="feat-hed"><code>picture</code> Element</h2>
       <p class="status">Active Development</p>
     </span>
   </div>
@@ -145,7 +145,7 @@
 <div class="feat">
   <div class="head">
     <span>
-      <h2 class="feat-hed">Advanced <code>srcset</code> and <code>sizes</code> attributes</h2>
+      <h2 class="feat-hed">Advanced <code>srcset</code> and <code>sizes</code> Attributes</h2>
       <p class="status">Active Development</p>
     </span>
   </div>
@@ -196,7 +196,7 @@
 <div class="feat">
   <div class="head">
     <span>
-      <h2 class="feat-hed">Basic <code>srcset</code> attribute</h2>
+      <h2 class="feat-hed">Basic <code>srcset</code> Attribute</h2>
       <p class="status">Active Development</p>
     </span>
   </div>
@@ -245,5 +245,14 @@
 </div>
 
     </div>
+
+    <footer class="body">
+      <nav class="social">
+        <h2 class="a11y-hide">Share this page</h2>
+        <a class="no-txt twitter" href="https://twitter.com/respimg">Twitter</a>
+        <a class="no-txt facebook" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fresponsiveimages.org&amp;t=Read%20the%20latest%20news%20on%20responsive%20images%2C%20and%20get%20involved!">Facebook</a>
+        <a class="no-txt g-plus" href="https://plus.google.com/share?url=http%3A%2F%2Fresponsiveimages.org">Google Plus</a>
+      </nav>
+    </footer>
   </body>
 </html>

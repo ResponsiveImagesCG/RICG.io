@@ -7,12 +7,34 @@
       <h1 class="logo"><img src="_img/ricg-logo.png" alt="Responsive Issues Community Group"></h1>
     </header>
 
-	<div class="intro">
-	    <p>The <abbr title="Responsive Issues Community Group">RICG</abbr> is a group of independent designers and developers working toward standards that will help build fast, accessible, responsive websites.</p>
-	</div>
+    {{>intro}}
 
     <div class="issues">
       {{> issues }}
     </div>
+
+
+    <div class="foot">
+
+      <div class="newsletter" id="newsletter">
+        <h2 class="news-hed"><a href="http://responsiveimages.org/demos/">Subscribe to our newsletter!</a></h2>
+        <p class="news-subhed">Get news, announcements, and implementation updates every other Friday.</p>
+
+        <div id="mc_embed_signup">
+          <form action="http://responsiveimages.us8.list-manage1.com/subscribe/post?u=c988d9ca55d5d09e73a7dc993&amp;id=1593118b9a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+            <label for="mce-EMAIL" class="a11y-hide">Email Address</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required="">
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_c988d9ca55d5d09e73a7dc993_1593118b9a" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+          </form>
+        </div>
+
+      </div>
+
+      <nav class="social">
+        <a class="no-txt twitter" href="https://twitter.com/respimg">The RICG on Twitter</a>
+      </nav>
+    </div>
+
   </body>
 </html>

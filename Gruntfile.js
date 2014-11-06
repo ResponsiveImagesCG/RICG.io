@@ -120,7 +120,7 @@ module.exports = function(grunt) {
 			custom_options: {
 				options: {
 					url: "http://ricg.io.dev?nocrit",
-					filename : '_dist/_css/all.css',
+					filename : '_css/all.css',
 					outputfile: "_dist/_css/critical.css"
 				}
 			}
@@ -165,7 +165,6 @@ module.exports = function(grunt) {
 
 	// Default task.
 	grunt.registerTask('default', [
-		'chmod:writeable',
 		'clean',
 		'qunit',
 		'concat',
@@ -174,19 +173,15 @@ module.exports = function(grunt) {
 		'uglify',
 		'assemble',
 		'criticalcss',
-		'chmod:readonly'
 	]);
 
 	// NOTE these watch tasks try to run only relevant tasks per file save
 
 	grunt.registerTask('watch-endpoints', [
-		'chmod:writeable',
 		'copy',
-		'chmod:readonly'
 	]);
 
 	grunt.registerTask('watch-default', [
-		'chmod:writeable',
 		'clean',
 		'qunit',
 		'concat',
@@ -195,34 +190,31 @@ module.exports = function(grunt) {
 		'uglify',
 		'assemble',
 		'criticalcss',
-		'chmod:readonly'
 	]);
 
 	grunt.registerTask('watch-css', [
-		'chmod:writeable',
 		'clean',
 		'copy',
 		'assemble',
 		'concat:css_main',
 		'cssmin',
 		'criticalcss',
-		'chmod:readonly'
 	]);
 
 	grunt.registerTask('watch-js', [
-		'chmod:writeable',
 		'concat:js_initial',
-		'concat:js_main',
-		'concat:js_respond',
-		'chmod:readonly'
+		'concat:js_main'
 	]);
 
 	grunt.registerTask('stage', [
 		'clean',
 		'qunit',
-		'copy',
 		'concat',
+		'copy',
 		'cssmin',
+		'uglify',
+		'assemble',
+		'criticalcss',
 		'uglify'
 	]);
 };

@@ -9,9 +9,11 @@
     <meta name="fullcss" content="/_css/all.css">
 
     <?php
-    if( is_null( $_GET[ "nocrit" ] ) ) {
+    $critical = @file_get_contents("_css/critical.css" );
+    $criticalCssNotEmpty = $critical !== false && strlen($critical) !== 0;
+    if( is_null( $_GET[ "nocrit" ] ) && $criticalCssNotEmpty ) {
       echo "<style>";
-      include( "_css/critical.css" );
+      echo $critical;
       echo "</style>";
     } else {
       echo '<link rel="stylesheet" href="/_css/all.css">';
@@ -261,6 +263,7 @@
       </div>
 
       <nav class="social">
+        <a class="slack" href="https://ricg-slack.herokuapp.com"><img src="https://ricg-slack.herokuapp.com/badge.svg" alt="Join the RICG on Slack"></a>
         <a class="no-txt twitter" href="https://twitter.com/respimg">The RICG on Twitter</a>
       </nav>
     </div>

@@ -117,12 +117,10 @@ module.exports = function(grunt) {
 			}
 		},
 		criticalcss: {
-			custom_options: {
-				options: {
-					url: "http://ricg.io.dev?nocrit",
-					filename : '_css/all.css',
-					outputfile: "_dist/_css/critical.css"
-				}
+			options: {
+				filename: "_tmpl/_css/all.css",
+				url: "http://localhost:8000/?nocrit",
+				outputfile: "_dist/_css/critical.css"
 			}
 		},
 

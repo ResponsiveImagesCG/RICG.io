@@ -194,7 +194,6 @@ p {
 @media( min-width: 40em ){
   .foot {
     clear: both;
-    float: left;
     width: 100%;
     padding-bottom: 3em;
   }

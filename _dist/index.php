@@ -44,7 +44,7 @@
 <div class="feat">
   <div class="head">
     <span>
-      <h3 class="feat-hed">Element Queries</h3>
+      <h3 class="feat-hed">Container Queries</h3>
       <p class="status">Initial Planning</p>
     </span>
   </div>
@@ -67,7 +67,7 @@
       </div>
     </div>
     <div class="col-a">
-      <p><p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <em>Element</em> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on element queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p></p>
+      <p><p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <em>Container</em> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on container queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p></p>
 
       
 
@@ -101,13 +101,13 @@
         
           <img src="_img/icon-chrome.png" alt="chrome" class="full-support">
         
-          <img src="_img/icon-firefox.png" alt="firefox" >
+          <img src="_img/icon-firefox.png" alt="firefox" class="full-support">
         
           <img src="_img/icon-opera.png" alt="opera" class="full-support">
         
-          <img src="_img/icon-safari.png" alt="safari" >
+          <img src="_img/icon-safari.png" alt="safari" class="full-support">
         
-          <img src="_img/icon-ie.png" alt="ie" >
+          <img src="_img/icon-ie.png" alt="ie" class="full-support">
         
       </div>
     </div>
@@ -157,13 +157,13 @@
         
           <img src="_img/icon-chrome.png" alt="chrome" class="full-support">
         
-          <img src="_img/icon-firefox.png" alt="firefox" >
+          <img src="_img/icon-firefox.png" alt="firefox" class="full-support">
         
           <img src="_img/icon-opera.png" alt="opera" class="full-support">
         
-          <img src="_img/icon-safari.png" alt="safari" >
+          <img src="_img/icon-safari.png" alt="safari" class="full-support">
         
-          <img src="_img/icon-ie.png" alt="ie" >
+          <img src="_img/icon-ie.png" alt="ie" class="full-support">
         
       </div>
     </div>
@@ -207,13 +207,13 @@
         
           <img src="_img/icon-chrome.png" alt="chrome" class="full-support">
         
-          <img src="_img/icon-firefox.png" alt="firefox" >
+          <img src="_img/icon-firefox.png" alt="firefox" class="full-support">
         
           <img src="_img/icon-opera.png" alt="opera" class="full-support">
         
           <img src="_img/icon-safari.png" alt="safari" class="full-support">
         
-          <img src="_img/icon-ie.png" alt="ie" >
+          <img src="_img/icon-ie.png" alt="ie" class="full-support">
         
       </div>
     </div>

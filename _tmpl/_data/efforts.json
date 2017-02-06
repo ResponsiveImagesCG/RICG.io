@@ -1,9 +1,9 @@
 {
   "efforts": [
       {
-      "title": "Element Queries",
+      "title": "Container Queries",
       "status": "Initial Planning",
-      "desc": "<p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <em>Element</em> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on element queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p>",
+      "desc": "<p>Media queries allow authors to vary the layout of their page based on the dimensions of the viewport. <em>Container</em> queries will allow developers to vary the layout within specific elements on a page (and their children) based on the dimensions of the parent elements themselves, allowing for much more modular approaches to layout.</p><p>Work on container queries has just begun; we are still collecting use cases and working to understand technical constraints. Please contribute!</p>",
       "hascode": false,
       "support": [{
         "name": "chrome",
@@ -48,7 +48,7 @@
       },
       {
         "name": "firefox",
-        "supported": false
+        "supported": true
       },
       {
         "name": "opera",
@@ -56,11 +56,11 @@
       },
       {
         "name": "safari",
-        "supported": false
+        "supported": true
       },
       {
         "name": "ie",
-        "supported": false
+        "supported": true
       }],
       "docs": [{
         "title": "Repo",
@@ -90,7 +90,7 @@
       },
       {
         "name": "firefox",
-        "supported": false
+        "supported": true
       },
       {
         "name": "opera",
@@ -98,11 +98,11 @@
       },
       {
         "name": "safari",
-        "supported": false
+        "supported": true
       },
       {
         "name": "ie",
-        "supported": false
+        "supported": true
       }],
       "docs": [{
         "title": "Use Cases",
@@ -127,7 +127,7 @@
       },
       {
         "name": "firefox",
-        "supported": false
+        "supported": true
       },
       {
         "name": "opera",
@@ -139,7 +139,7 @@
       },
       {
         "name": "ie",
-        "supported": false
+        "supported": true
       }],
       "docs": [{
         "title": "Use Cases",

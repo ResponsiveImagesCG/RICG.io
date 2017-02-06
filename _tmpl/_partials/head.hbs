@@ -7,9 +7,11 @@
     <meta name="fullcss" content="/_css/all.css">
 
     <?php
-    if( is_null( $_GET[ "nocrit" ] ) ) {
+    $critical = @file_get_contents("_css/critical.css" );
+    $criticalCssNotEmpty = $critical !== false && strlen($critical) !== 0;
+    if( is_null( $_GET[ "nocrit" ] ) && $criticalCssNotEmpty ) {
       echo "<style>";
-      include( "_css/critical.css" );
+      echo $critical;
       echo "</style>";
     } else {
       echo '<link rel="stylesheet" href="/_css/all.css">';
